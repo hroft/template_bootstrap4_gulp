@@ -17,7 +17,7 @@ jQuery(document).ready(function() {
         margin: 10,
         callbacks: true,
         URLhashListener: true,
-        autoplayHoverPause: true,
+        autoplayHoverPause: false, ///
         startPosition: 'URLHash',
         nav: false,
         dots: false

@@ -9,6 +9,7 @@
 // ≥992px
 +media-breakpoint-down(md)
 
+
 // ≥768px
 +media-breakpoint-down(sm)
 
@@ -16,16 +17,130 @@
 +media-breakpoint-down(xs)
 
 
+
 /*==========  Mobile First  ==========*/
 
 // ≤576px
 +media-breakpoint-up(sm)
 
+       
 // ≤768px
 +media-breakpoint-up(md)
+
 
 // ≤992px
 +media-breakpoint-up(lg)
 
+
 // ≤1200px
 +media-breakpoint-up(xl)
+
+@media only screen and (min-width: 1999px)
+    .txt-baner-dvaoma, .txt-baner-fn1, .txt-baner-grinas, .txt-baner-realmart, .txt-baner-tacit 
+        position: absolute
+        color: #fff
+        top: 80px
+        left: 100px
+        width: 470px
+        line-height: 1.2
+        padding-top: 10px
+        font-family: SegoeUIRegular,Tahoma,Geneva,Verdana,sans-serif
+        font-size: 1.1rem
+        padding: 5px
+
+@media only screen and (max-width: 991px)
+    // .txt-baner-dvaoma, .txt-baner-fn1, .txt-baner-grinas, .txt-baner-realmart, .txt-baner-tacit
+    //     width: 428px
+    //     line-height: 1.2
+    //     font-size: 0.8rem
+    //     padding: 5px
+    // .bt-dvaoma, .bt-fn1, .bt-grinas, .bt-realmart, .bt-tacit, .bt-tn1
+    //     padding: 5px 25px
+
+
+    .logo-container
+        &__h3
+            font-size: 1.1rem
+        &__h5
+            font-size: 0.8rem
+    .logo_text2
+        text-align: right
+        font-size: 0.67rem
+        padding: 10px 0
+    .bt-dvaoma, .bt-fn1, .bt-grinas, .bt-realmart, .bt-tacit, .bt-tn1
+        padding: 1px 15px;
+        font-size: 0.85rem
+    .txt-baner-dvaoma, .txt-baner-fn1, .txt-baner-grinas, .txt-baner-realmart, .txt-baner-tacit
+        width: 400px
+        line-height: 1
+        font-size: 0.8rem
+        padding: 2px
+        // border: 1px solid red
+        left: 5px
+        top: 65px
+    .txt-header-dvaoma, .txt-header-fn1, .txt-header-grinas, .txt-header-realmart, .txt-header-tacit, .txt-header-tn1
+        left: 205px
+        top: 15px
+        font-size: 1.2rem
+        line-height: .9
+@media only screen and (max-width: 767px)
+    .logo_img
+        left: 10px
+    .txt-header-dvaoma, .txt-header-fn1, .txt-header-grinas, .txt-header-realmart, .txt-header-tacit, .txt-header-tn1
+        left: 125px
+        top: 15px
+        font-size: 1.1rem
+    .bt-dvaoma, .bt-fn1, .bt-grinas, .bt-realmart, .bt-tacit, .bt-tn1
+        padding: 1px 15px
+        font-size: .85rem
+        left: 135px
+    .txt-baner-dvaoma, .txt-baner-fn1, .txt-baner-grinas, .txt-baner-realmart, .txt-baner-tacit
+        width: 280px
+        font-size: 0.4rem
+    .logo-container
+        display: none
+    .logo_text
+        img 
+            width: 50px
+    .logo_text2
+        font-size: 0.48rem
+    .text-header-h1
+        font-size: 1.2rem
+    .text-footer-no
+         display: none
+    .text-header-h1
+         font-size: 1.5rem
+
+
+    // .logo-container
+    //     &__h3
+    //         font-size: 1.1rem
+    //     &__h5
+    //         font-size: 0.8rem
+    // .logo_text2
+    //     text-align: right
+    //     font-size: 0.67rem
+    //     padding: 10px 0
+    // .bt-dvaoma, .bt-fn1, .bt-grinas, .bt-realmart, .bt-tacit, .bt-tn1
+    //     padding: 1px 15px;
+    //     font-size: 0.85rem
+    // .txt-baner-dvaoma, .txt-baner-fn1, .txt-baner-grinas, .txt-baner-realmart, .txt-baner-tacit
+    //     width: 400px
+    //     line-height: 1.1
+    //     font-size: 0.8rem
+    //     padding: 2px
+    //     // border: 1px solid red
+    //     left: 5px
+    //     top: 65px
+    // .txt-header-dvaoma, .txt-header-fn1, .txt-header-grinas, .txt-header-realmart, .txt-header-tacit, .txt-header-tn1
+    //     left: 205px
+    //     top: 15px
+    //     font-size: 1.2rem
+    //     line-height: .9
+    
+    
+@media only screen and (max-width: 575px)
+    .text-footer-no
+         display: none
+    .text-header-h1
+         font-size: 1.5rem
